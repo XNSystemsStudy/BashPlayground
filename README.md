@@ -1,0 +1,2 @@
+# BashPlayground
+Bash study
