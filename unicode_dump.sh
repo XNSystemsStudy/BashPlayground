@@ -14,7 +14,7 @@ TO=$(($2))
 
 # BASH 3.XX does NOT support \u, \U
 NATIVE_UNICODE=N
-[ $'\U41' = 'A' ] && NATIVE_UNICODE=N
+[ $'\U41' = 'A' ] && NATIVE_UNICODE=Y
 
 for ((i=$FROM;i<=$TO;i++));do
 	hex=$(printf "%08X" $i)
